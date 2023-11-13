@@ -1,0 +1,73 @@
+body
+{
+    background: url(images/skytree.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+}
+/*title*/
+#header{
+
+    text-align: center;
+    font-size: 7vw;
+}
+
+#lap{
+    font-size: 5vw;
+    text-align: right;
+}
+
+#time{
+    font-size: 10vw;
+    text-align: center;
+    padding-top: 50px;
+}
+#controls{
+          margin-bottom: 100px;
+}
+
+.control
+{
+    
+    color: white;
+    background-color: #d7A04e;
+    border-radius: 100%;
+    text-align: center;
+    padding: 20% 0;
+    width: 10vw;
+    height: 10vw;
+    font-size: 2.5vw;
+    cursor: pointer;
+    display: none;
+}
+
+.control:hover{
+    background-color: white;
+    color:#d7A04e;
+}
+
+#laps
+{
+    max-height: 270px;
+    overflow-y: scroll;
+}
+
+.lap{
+    height: 50px;
+    border-bottom: 1px solid white;
+    margin: 15px;
+}
+.laptitle{
+
+   
+    font-size: 1.5em;
+    float: left;
+}
+
+.laptime{
+  
+    font-size: 1.5em;
+    float: right;
+}
